@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:xenial
 RUN apt-get update && apt-get -y install haproxy
 VOLUME /etc/haproxy
 EXPOSE 9000
